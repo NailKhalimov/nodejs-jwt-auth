@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
     min: 6
   },
   password: {
-    type: date,
+    type: Date,
     default: Date.now()
   },
 })
